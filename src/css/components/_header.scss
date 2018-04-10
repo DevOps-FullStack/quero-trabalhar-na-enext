@@ -1,0 +1,73 @@
+header {
+	margin: 20px 0;
+
+	.title {
+			line-height: 13px;
+
+			h1 {
+					color: #ff4500;
+					font-weight: normal;
+					margin: 0;
+			}
+
+			span.description {
+					display: inline-block;
+					font-weight: bold;
+					font-style: italic;
+					color: #663399;
+					font-family: 'Snell Roundhand', cursive;
+					letter-spacing: -1.5px;
+
+					&::before, &::after {
+							content: ' | ';
+							font-style: normal;
+							padding: 10px;
+							display: inline-block;
+							transform: rotate(90deg);
+					}
+			}
+	}
+
+	.col {
+			text-align: center;
+	}
+
+	.search {
+
+	}
+
+	.shipping {
+			color: #ff4500;
+			font-style: italic;
+			font-family: sarif;
+
+			i {
+					font-weight: bold;
+			}
+	}
+
+	.bag {
+			color: dimgray;
+			text-transform: uppercase;
+
+			.bag-size{
+					color: #ff4500;
+					font-style: normal;
+					font-weight: bold;
+			}
+
+			span {
+				margin: 0 5px;
+				vertical-align: super;
+			}
+
+			.bag-size {
+				vertical-align: super;
+			}
+
+			.ion-ios-cart {
+				color: #663399;
+				font-size: 40px;
+			}
+	}
+}

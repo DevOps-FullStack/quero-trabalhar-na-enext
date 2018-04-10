@@ -1,0 +1,32 @@
+.align-center {
+	text-align: center;
+}
+
+.button {
+	border: 0;
+	padding: 10px 20px;
+	color: white;
+	background-color: #4e0597;
+	border-radius: 5px;
+	text-transform: uppercase;
+
+	&.button-orange{
+		background-color: #ff4500;
+	}
+}
+
+input {
+	border: dimgray solid 1px;
+	border-radius: 5px;
+	padding: 7px 5px 7px 30px;
+	width: 220px;
+	margin-right: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}

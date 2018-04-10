@@ -1,6 +1,7 @@
-//Reset
-
-body {
-  margin: 0;
-}
-
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import './_reset.scss';
+@import './components/_helpers.scss';
+@import './components/_nav-bar.scss';
+@import './components/_header.scss';
+@import './components/_potion.scss';
+@import './components/_footer.scss';

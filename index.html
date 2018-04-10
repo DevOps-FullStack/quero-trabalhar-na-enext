@@ -3,128 +3,148 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Enext</title>
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="./src/css/index.scss">
 </head>
 
 <body>
   <header>
-    <div>
-      <div>
-        <h1>
-          <span>Merlins's</span> Potions
-        </h1>
-        <span>fine potions since 2016</span>
+    <div class="row">
+      <div class="col-4 title align-center">
+        <a href="">
+          <h1>
+            <span>Merlins's</span> Potions
+          </h1>
+          <span class="description">fine potions since 2016</span>
+        </a>
       </div>
-      <div>
+      <div class="col-3 search align-center">
         <i></i>
         <input type="text" placeholder="Search our stock">
       </div>
-      <div>Free shiping
-        <span>on orders over $50</span>
+      <div class="col-3 shipping align-center ">
+        <i>Free shiping</i>
+        <br> on orders over $50
       </div>
-      <div>
-        <i></i>
-        Bag:
-        <i></i>
+      <div class="col-1 bag align-center">
+        <i class="ion-ios-cart"></i>
+        <span>Bag:</span>
+        <i class="bag-size">1</i>
       </div>
     </div>
-    <div>
+    <div class="nav-bar">
       <nav>
         <ul>
-          <li>Potions</li>
-          <li>Ingredients</li>
-          <li>Books</li>
-          <li>Supplies</li>
-          <li>Charms</li>
-          <li>Clearance!</li>
+          <li>
+            <a href="#">Potions</a>
+          </li>
+          <li>
+            <a href="#">Ingredients</a>
+          </li>
+          <li>
+            <a href="#">Books</a>
+          </li>
+          <li>
+            <a href="#">Supplies</a>
+          </li>
+          <li>
+            <a href="#">Charms</a>
+          </li>
+          <li>
+            <a href="#">Clearance!</a>
+          </li>
         </ul>
       </nav>
-      <div>
+      <div class="nav-bar-sing">
         <a href="#">Sing In</a>
         or
         <a href="#">Sing Up</a>
       </div>
     </div>
   </header>
-  <main>
+  <main class="container">
     <section>
       <h2>Potions</h2>
-      <div>
-        <div>
+      <div class="row align-center">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/aging-potion.png" alt="">
-          <span>Aging Potion -
-            <i>$29.99</i>
-          </span>
+          <span class="description">Aging Potion -</span>
+          <span class="price">$29.99</span>
         </div>
-        <div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/bulgeye-potion.png" alt="">
-          <span>Bulgeye Potion -
-            <i>$19.99</i>
-          </span>
+          <span class="description">Bulgeye Potion - </span>
+          <span class="price">$19.99</span>
         </div>
-        <div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/dragon-tonic.png" alt="">
-          <span>Dragon Tonic -
-            <i>$64.99</i>
-          </span>
+          <span class="description">Dragon Tonic -</span>
+          <span class="price">$64.99</span>
         </div>
-        <div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/love-potion.png" alt="">
-          <span>Love Potion -
-            <i>$29.99</i>
-          </span>
+          <span class="description">Love Potion - </span>
+          <span class="price">$29.99</span>
         </div>
-        <div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/polyjuice-potion.png" alt="">
-          <span>Polyjuice Potion -
-            <i>$99.99</i>
-          </span>
+          <span class="description">Polyjuice Potion - </span>
+          <span class="price">$99.99</span>
         </div>
-        <div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 item-potion">
           <img src="./assets/products/sleeping-draught.png" alt="">
-          <span>Sleeping Potion -
-            <i>$14.99</i>
-          </span>
+          <span class="description">Sleeping Potion -</span>
+          <span class="price">$14.99</span>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <div>
-      <a href="#">Company Retuns</a>
-      <a href="#">Contact US Carrers</a>
-      <a href="#">Shipping</a>
-      <a href="#">
-        <i></i>
-      </a>
-      <a href="#">
-        <i></i>
-      </a>
-      <a href="#">
-        <i></i>
-      </a>
-      <a href="#">
-        <i></i>
-      </a>
-      <a href="#">
-        <i></i>
-      </a>
-    </div>
-    <div>
-      <p>Sign up for our Newsletter</p>
-      <form action="post">
-        <label for="contact">
-          Sign up for our newsletter & get exclusive discounts!
-        </label>
-        <input type="text" placeholder="Enter your email">
-        <button type="button">Submit</button>
-      </form>
-    </div>
-    <p>&copy; 2018 Merlin's Potions. All Rights Reserved</p>
+   <div class="container">
+      <div class="row">
+          <div class="col">
+            <div class="text-uppercase info">
+              <a href="#">Company Retuns</a>
+              <a href="#">Contact US Carrers</a>
+              <a href="#">Shipping</a>
+            </div>
+            <div class="icons">
+              <a href="#">
+                <i class="icon ion-social-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="icon ion-social-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="icon ion-social-pinterest"></i>
+              </a>
+              <a href="#">
+                <i class="icon ion-social-tumblr"></i>
+              </a>
+              <a href="#">
+                <i class="icon ion-social-googleplus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="contact">
+              <p>Sign up for our Newsletter</p>
+              <p>
+                Sign up for our newsletter & get exclusive discounts!
+              </p>
+              <form action="post">
+                <input type="text" placeholder="Enter your email">
+                <button type="button" class="button button-orange">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <p>&copy; 2018 Merlin's Potions. All Rights Reserved</p>
+   </div>
   </footer>
   <script src="./src/js/index.js"></script>
 </body>

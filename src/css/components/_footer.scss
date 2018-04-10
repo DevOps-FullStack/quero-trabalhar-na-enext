@@ -1,0 +1,51 @@
+footer {
+    background-color: rgba(192, 192, 192, 0.904);
+    padding: 30px;
+
+    a{
+        padding: 5px 10px 5px 0;
+        text-decoration: none;
+        color: #ff4500;
+        font-size: 20px;
+    }
+
+    .icons {
+
+        a{
+            padding-right:  15px;
+        }
+
+        .icon {
+          font-size: 30px;
+          color: #663399;
+        }
+       }
+
+    p{
+        color: rgb(75, 74, 74);
+    }
+
+    .contact {
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        max-width: 370px;
+
+        p {
+            margin-top: 0;
+
+            &:first-child{
+                font-style: italic;
+            }
+        }
+
+        input {
+            padding-left: 5px;
+        }
+    }
+
+    .info {
+        margin-bottom: 30px;
+    }
+
+}

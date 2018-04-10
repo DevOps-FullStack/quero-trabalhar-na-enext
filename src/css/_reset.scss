@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Oswald;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box !important;
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    margin-right: 0;
+}
