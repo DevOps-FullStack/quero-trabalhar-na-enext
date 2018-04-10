@@ -9,4 +9,10 @@
 				color: #ff4500;
 				font-size: 14px;
     }
+
+    @media (max-width: 575px) {
+      img {
+        max-width: 200px;
+      }
+    }
 }
