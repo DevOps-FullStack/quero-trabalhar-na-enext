@@ -1,65 +1,96 @@
 .nav-bar {
-	text-align: center;
-	background-color: #663399;
-	color: white;
-	font-family: sarif;
-	font-style: italic;
+  text-align: center;
+  background-color: #663399;
+  color: white;
+  font-family: sarif;
+  font-style: italic;
 
-	nav {
-		display: inline-block;
+  nav {
 
-		ul {
-			padding: 0;
+    @media (max-width: 811px) {
+      display: block;
 
-			li {
-				display: inline;
-				padding: 10px 20px;
-								border-radius: 5px;
+      ul {
+        list-style-type: none;
+        text-align: left;
+        padding: 0;
+        li {
+          padding: 10px 0 5px 40px;
+          border-bottom: white solid 1px;
 
-				a {
-									text-decoration: none;
-									color: white;
+          a {
+            display: block;
+            color: white;
+          }
 
-									&::after{
-											content: ' ';
-											display: inline-block;
-											border: white solid;
-											border-left: 5px solid transparent;
-											border-right: 5px solid transparent;
-											border-bottom: 5px solid transparent;
-											position: relative;
-											left: 10px;
-									}
 
-							}
+          &:hover{
+            background-color:#4e0597;
+          }
+        }
+      }
+    }
 
-							&:hover{
-								background-color:#4e0597;
-							}
+    @media (min-width:812px) {
+      display: inline-block;
 
-							&:last-child(){
-								a {
-									&::after{
-										display: none;
-									}
-								}
-							}
-						}
-		}
-	}
+      ul {
+        padding: 0;
+
+        li {
+          display: inline;
+          padding: 10px 20px;
+          border-radius: 5px;
+
+          a {
+            text-decoration: none;
+            color: white;
+            text-decoration: none;
+
+            &::after {
+              content: ' ';
+              display: inline-block;
+              border: white solid;
+              border-left: 5px solid transparent;
+              border-right: 5px solid transparent;
+              border-bottom: 5px solid transparent;
+              position: relative;
+              left: 10px;
+            }
+          }
+
+          &:hover{
+            background-color:#4e0597;
+          }
+
+          &:last-child() {
+            a {
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .nav-bar-sing {
-	display: inline-block;
-
-	a {
-		padding: 0 10px;
-		text-decoration: none;
-				color: white;
+  @media (max-width: 811px) {
+    padding-bottom: 20px;
+  }
 
 
-				&:hover{
-					color:#4e0597;
-				}
-	}
+  display: inline-block;
+
+  a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      color:#4e0597;
+    }
+  }
 }
