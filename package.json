@@ -1,0 +1,23 @@
+{
+  "name": "quero-trabalhar-na-enext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevOps-FullStack/quero-trabalhar-na-enext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevOps-FullStack/quero-trabalhar-na-enext/issues"
+  },
+  "homepage": "https://github.com/DevOps-FullStack/quero-trabalhar-na-enext#readme"
+}
