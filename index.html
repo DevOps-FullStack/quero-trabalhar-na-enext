@@ -12,25 +12,25 @@
 </head>
 
 <body>
-  <header>
+  <header class="menu">
     <div class="row">
-      <div class="col-4 title align-center">
-        <a href="">
-          <h1>
-            <span>Merlins's</span> Potions
-          </h1>
-          <span class="description">fine potions since 2016</span>
-        </a>
+      <div class="col-sm-6 col-md-4 title">
+        <span class="icon-menu">&equiv;</span>
+        <span class="icon-close">&Cross;</span>
+        <h1>
+          <span>Merlins's</span> Potions
+        </h1>
+        <span class="description">fine potions since 2016</span>
       </div>
-      <div class="col-3 search align-center">
-        <i></i>
+      <div class="col-sm-4 search">
+        <i class="ion-ios-search-strong"></i>
         <input type="text" placeholder="Search our stock">
       </div>
-      <div class="col-3 shipping align-center ">
+      <div class="col-sm-2 shipping align-center ">
         <i>Free shiping</i>
         <br> on orders over $50
       </div>
-      <div class="col-1 bag align-center">
+      <div class="col-sm-3 col-md-2 bag align-center">
         <i class="ion-ios-cart"></i>
         <span>Bag:</span>
         <i class="bag-size">1</i>
@@ -70,7 +70,7 @@
     <section>
       <h2>Potions</h2>
       <div class="row align-center">
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="1">
           <div>
             <img src="./assets/products/aging-potion.png" alt="">
           </div>
@@ -79,7 +79,7 @@
             <span class="price">$29.99</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="2">
           <div>
             <img src="./assets/products/bulgeye-potion.png" alt="">
           </div>
@@ -88,7 +88,7 @@
             <span class="price">$19.99</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="3">
           <div>
             <img src="./assets/products/dragon-tonic.png" alt="">
           </div>
@@ -97,7 +97,7 @@
             <span class="price">$64.99</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="4">
           <div>
             <img src="./assets/products/love-potion.png" alt="">
           </div>
@@ -106,7 +106,7 @@
             <span class="price">$29.99</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="5">
           <div>
             <img src="./assets/products/polyjuice-potion.png" alt="">
           </div>
@@ -115,13 +115,20 @@
             <span class="price">$99.99</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 item-potion">
+        <div class="col-sm-6 col-md-4 col-lg-3 item-potion" data-item-id="6">
           <div>
             <img src="./assets/products/sleeping-draught.png" alt="">
           </div>
           <div>
             <span class="description">Sleeping Potion -</span>
             <span class="price">$14.99</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal-background">
+          <span class="modal-close">&Cross;</span>
+          <div class="row">           
           </div>
         </div>
       </div>
