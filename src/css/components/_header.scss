@@ -3,11 +3,20 @@ header {
 
 	.icon-menu, .icon-close {
 		display: none;
+		position: absolute;
+		font-size: 50px;
+		cursor: pointer;
+		left: 0px;
+		color: #663399;
 	}
 
 	@media (max-width: 894px) {
 		.nav-bar,.shipping  {
 			display: none;
+		}
+
+		.icon-menu {
+			display: inline;
 		}
 
 		@media (max-width: 670px) {
@@ -18,24 +27,15 @@ header {
 	}
 
 	@media (max-width: 811px) {
-		.icon-menu, .icon-close{
+		.icon-menu {
 			display: inline-block;
-			position: absolute;
-			font-size: 50px;									
-			cursor: pointer;
-			left: 25px;
-			color: #663399;
-		}
-
-		.icon-close {
-			display: none;
 		}
 
 		.title {
 			font-size: 14px;
-			
+
 			@media (max-width: 420px) {
-				text-align: right !important;	
+				text-align: right !important;
 			}
 		}
 	}
@@ -85,6 +85,14 @@ header {
 			left: 25px;
 			cursor: pointer;
 			color: #ff4500;
+		}
+
+		input {
+			margin: 0;
+		}
+
+		@media (max-width: 575px) {
+			margin-left: 16.66666%
 		}
 	}
 
